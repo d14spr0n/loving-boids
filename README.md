@@ -13,8 +13,14 @@ The project is basically composed of the following files:
 * flock.lua, tasked of grouping the boids together in a single entity
 * grid.lua, expressing the logic used to track how close boids are
 
+Following there are a couple of screenshots taken from this little simulation, the first one showing the boids without the grid and the second one visualizing the grid too.
+
+![flock of boids w/o grid](/screenshots/loving-boids.png)
+
+![flock of boids w/ grid](/screenshots/loving-boids-with-grid.png)
+
 ## Shortcuts
-The only available shortcut present in this project is the letter __g__ which, when pressed, reveals the grid, visualing how boids are tracked.
+The only two available shortcuts in this project are the letter __g__ to reveal the grid, visualing how boids are tracked, and the letter __q__ to quit the simulation.
 
 ## Dependencies
 The only necessary dependency to run this simple project is the [Love2D framework](https://love2d.org/) which is available on almost every platform. The main.lua file contains the core functions that each Love2D project should have, namely:
