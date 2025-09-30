@@ -1,5 +1,5 @@
 require "flock"
-require "new_grid"
+require "grid"
 
 BOIDS_NUM=1000
 BOIDS_VISUAL_RANGE=60
